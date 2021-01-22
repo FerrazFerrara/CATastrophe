@@ -15,6 +15,8 @@
 		7BF1F93D25B9F23800AC8E68 /* CATastrophe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F93B25B9F23800AC8E68 /* CATastrophe.xcdatamodeld */; };
 		7BF1F94825B9F23800AC8E68 /* CATastropheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F94725B9F23800AC8E68 /* CATastropheTests.swift */; };
 		7BF1F95325B9F23800AC8E68 /* CATastropheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F95225B9F23800AC8E68 /* CATastropheUITests.swift */; };
+		7BF1F96C25BA284000AC8E68 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F96B25BA284000AC8E68 /* Category.swift */; };
+		7BF1F97125BA285500AC8E68 /* CatImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F97025BA285500AC8E68 /* CatImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7BF1F94E25B9F23800AC8E68 /* CATastropheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATastropheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF1F95225B9F23800AC8E68 /* CATastropheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATastropheUITests.swift; sourceTree = "<group>"; };
 		7BF1F95425B9F23800AC8E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF1F96B25BA284000AC8E68 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		7BF1F97025BA285500AC8E68 /* CatImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,8 @@
 		7BF1F96325B9F2C900AC8E68 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7BF1F96B25BA284000AC8E68 /* Category.swift */,
+				7BF1F97025BA285500AC8E68 /* CatImage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -306,8 +312,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BF1F93A25B9F23800AC8E68 /* Persistence.swift in Sources */,
+				7BF1F96C25BA284000AC8E68 /* Category.swift in Sources */,
 				7BF1F93325B9F23600AC8E68 /* ContentView.swift in Sources */,
 				7BF1F93D25B9F23800AC8E68 /* CATastrophe.xcdatamodeld in Sources */,
+				7BF1F97125BA285500AC8E68 /* CatImage.swift in Sources */,
 				7BF1F93125B9F23600AC8E68 /* CATastropheApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
