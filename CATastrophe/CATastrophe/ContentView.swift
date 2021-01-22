@@ -33,7 +33,9 @@ struct ContentView: View {
             }
         }.onAppear() {
             let apiCall = APICall()
-            apiCall.getCategories()
+            apiCall.getCat(category: 1) { (cat) in
+                print(cat)
+            }
         }
     }
 

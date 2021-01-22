@@ -8,7 +8,7 @@
 import Foundation
 
 class APICall {
-    public func getCat(category: Int, completion: @escaping(CatImage?) -> Void){
+    public func getCat(category: Int, completion: @escaping([CatImage]?) -> Void){
         guard let url = NSURL(string: "https://api.thecatapi.com/v1/images/search?category_ids=\(category)") else { completion(nil); return }
         
         let request = NSMutableURLRequest(url: url as URL, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 10.0)
@@ -24,7 +24,7 @@ class APICall {
             
             do {
                 guard let data = data else { completion(nil); return }
-                let json = try JSONDecoder().decode(CatImage.self, from: data)
+                let json = try JSONDecoder().decode([CatImage].self, from: data)
                 
                 completion(json)
             } catch {
