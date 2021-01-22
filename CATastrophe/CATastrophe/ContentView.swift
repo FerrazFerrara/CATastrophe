@@ -31,6 +31,8 @@ struct ContentView: View {
             Button(action: addItem) {
                 Label("Add Item", systemImage: "plus")
             }
+        }.onAppear() {
+            let _ = APICall()
         }
     }
 
