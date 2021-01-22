@@ -32,10 +32,7 @@ struct ContentView: View {
                 Label("Add Item", systemImage: "plus")
             }
         }.onAppear() {
-            let apiCall = APICall()
-            apiCall.getCat(category: 1) { (cat) in
-                print(cat)
-            }
+            let _ = APICall()
         }
     }
 
