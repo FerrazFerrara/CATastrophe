@@ -13,7 +13,7 @@ struct CATastropheApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CatVoteView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

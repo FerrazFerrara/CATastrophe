@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct CatVoteView: View {
+    
+    @StateObject var viewModel = CatVoteViewModel()
+    @Environment(\.managedObjectContext) var context
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            List(viewModel.categories, id: \.id) { category in
+                Text(category.name)
+            }
+        }.onAppear(perform: {
+            viewModel.getCategory()
+        })
     }
 }
 

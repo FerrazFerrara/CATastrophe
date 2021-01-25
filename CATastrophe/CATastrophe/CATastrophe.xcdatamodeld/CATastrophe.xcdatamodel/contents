@@ -4,7 +4,7 @@
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="name" optional="YES" attributeType="String"/>
     </entity>
-    <entity name="CatUpvote" representedClassName="CatUpvote" syncable="YES" codeGenerationType="class">
+    <entity name="CatUpvote" representedClassName="CatUpvote" syncable="YES">
         <attribute name="height" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="url" optional="YES" attributeType="String"/>
@@ -14,8 +14,8 @@
         <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
     </entity>
     <elements>
-        <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
         <element name="CategoryCD" positionX="-63" positionY="-18" width="128" height="73"/>
         <element name="CatUpvote" positionX="-54" positionY="-9" width="128" height="103"/>
+        <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
     </elements>
 </model>

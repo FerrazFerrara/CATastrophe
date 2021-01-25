@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B9CD01325BF42970025508C /* CATastrophe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F93B25B9F23800AC8E68 /* CATastrophe.xcdatamodeld */; };
 		7BF1F93125B9F23600AC8E68 /* CATastropheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F93025B9F23600AC8E68 /* CATastropheApp.swift */; };
 		7BF1F93325B9F23600AC8E68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F93225B9F23600AC8E68 /* ContentView.swift */; };
 		7BF1F93525B9F23800AC8E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF1F93425B9F23800AC8E68 /* Assets.xcassets */; };
 		7BF1F93825B9F23800AC8E68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF1F93725B9F23800AC8E68 /* Preview Assets.xcassets */; };
 		7BF1F93A25B9F23800AC8E68 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F93925B9F23800AC8E68 /* Persistence.swift */; };
-		7BF1F93D25B9F23800AC8E68 /* CATastrophe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F93B25B9F23800AC8E68 /* CATastrophe.xcdatamodeld */; };
 		7BF1F94825B9F23800AC8E68 /* CATastropheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F94725B9F23800AC8E68 /* CATastropheTests.swift */; };
 		7BF1F95325B9F23800AC8E68 /* CATastropheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F95225B9F23800AC8E68 /* CATastropheUITests.swift */; };
 		7BF1F96C25BA284000AC8E68 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F96B25BA284000AC8E68 /* Category.swift */; };
@@ -332,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B9CD01325BF42970025508C /* CATastrophe.xcdatamodeld in Sources */,
 				7BF1F93A25B9F23800AC8E68 /* Persistence.swift in Sources */,
 				7BF1F99C25BF380A00AC8E68 /* CatVoteViewModel.swift in Sources */,
 				7BF1F96C25BA284000AC8E68 /* Category.swift in Sources */,
@@ -339,7 +340,6 @@
 				7BF1F98F25BB84E000AC8E68 /* CatUpvote+CoreDataProperties.swift in Sources */,
 				7BF1F93325B9F23600AC8E68 /* ContentView.swift in Sources */,
 				7BF1F99725BF37F100AC8E68 /* CatVoteView.swift in Sources */,
-				7BF1F93D25B9F23800AC8E68 /* CATastrophe.xcdatamodeld in Sources */,
 				7BF1F98E25BB84E000AC8E68 /* CatUpvote+CoreDataClass.swift in Sources */,
 				7BF1F97125BA285500AC8E68 /* CatImage.swift in Sources */,
 				7BF1F97925BB5DEC00AC8E68 /* APICall.swift in Sources */,
